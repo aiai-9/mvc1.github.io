@@ -43,10 +43,6 @@ fetch('data/samples.json')
                 textElement.appendChild(modelGroup);
                 textSamplesContainer.appendChild(textElement);
             });
-
-            // Add a horizontal line after each section
-            const hrElement = document.createElement('hr');
-            textSamplesContainer.appendChild(hrElement);
         });
     })
     .catch(error => console.error('Error loading samples:', error));
