@@ -2,7 +2,7 @@
     "samples": [
         {
             "text": "The quick brown fox jumps over the lazy dog.",
-            "file": "assets/00001 (3).wav"
+            "file": "docs/assets/00001 (3).wav"
         },
         {
             "text": "Hello, this is a test for the StyleTTS2 demo.",
