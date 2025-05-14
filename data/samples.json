@@ -35,6 +35,28 @@
                         { "name": "VITS", "file": "docs/assets/00001_2.wav" },
                         { "name": "StyleTTS", "file": "docs/assets/00001_2.wav" }
                     ]
+                },
+                {
+                    "text": "Maltby and Co. would issue warrants on them deliverable to the importer, and the goods were then passed to be stored in neighboring warehouses.",
+                    "models": [
+                        { "name": "Ground Truth", "file": "docs/assets/00001_2.wav" },
+                        { "name": "MVC", "file": "docs/assets/00001_2.wav" },
+                        { "name": "StyleTTS 2", "file": "docs/assets/00001_2.wav" },
+                        { "name": "JETS", "file": "docs/assets/00001_2.wav" },
+                        { "name": "VITS", "file": "docs/assets/00001_2.wav" },
+                        { "name": "StyleTTS", "file": "docs/assets/00001_2.wav" }
+                    ]
+                },
+                {
+                    "text": "it is not possible to state with scientific certainty that a particular small group of fibers come from a certain piece of clothing.",
+                    "models": [
+                        { "name": "Ground Truth", "file": "docs/assets/00001_2.wav" },
+                        { "name": "MVC", "file": "docs/assets/00001_2.wav" },
+                        { "name": "StyleTTS 2", "file": "docs/assets/00001_2.wav" },
+                        { "name": "JETS", "file": "docs/assets/00001_2.wav" },
+                        { "name": "VITS", "file": "docs/assets/00001_2.wav" },
+                        { "name": "StyleTTS", "file": "docs/assets/00001_2.wav" }
+                    ]
                 }
             ]
         },
