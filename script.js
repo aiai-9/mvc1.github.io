@@ -6,7 +6,8 @@ fetch('data/samples.json')
             const sampleElement = document.createElement('div');
             sampleElement.classList.add('sample');
             sampleElement.innerHTML = `
-                <div class="text">${sample.text}</div>
+                <h2>${sample.title}</h2>
+                <p>${sample.text}</p>
                 <div class="audio-container">
                     <audio controls>
                         <source src="${sample.file}" type="audio/wav">
