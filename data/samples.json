@@ -1,13 +1,14 @@
 {
     "samples": [
         {
+            "title": "Sample 1: The quick brown fox jumps over the lazy dog",
             "text": "The quick brown fox jumps over the lazy dog.",
-            "file": "docs/assets/00001 (3).wav"
+            "file": "assets/sample1.wav"
         },
         {
+            "title": "Sample 2: StyleTTS2 Demo",
             "text": "Hello, this is a test for the StyleTTS2 demo.",
-            "file": "docs/assets/00001 (4).wav"
+            "file": "assets/sample2.wav"
         }
     ]
 }
-
