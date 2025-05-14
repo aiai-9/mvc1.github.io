@@ -43,26 +43,27 @@ header p {
 }
 
 .sample {
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 20px rgba(0,0,0,0.1);
-    width: 250px;
+    background-color: transparent; /* Remove background */
+    padding: 0; /* Remove padding */
+    border-radius: 0; /* Remove rounded corners */
+    box-shadow: none; /* Remove box shadow */
+    width: auto;
     text-align: center;
     flex-shrink: 0;
-    margin: 0 10px;
+    margin: 0 20px;
 }
 
 .sample h3 {
     font-size: 18px;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     white-space: nowrap;
+    color: #333;
 }
 
 audio {
-    width: 100%;
-    margin-top: 10px;
+    width: 200px; /* Adjust the width */
+    margin-top: 0;
 }
 
 /* Footer Styles */
