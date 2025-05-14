@@ -3,6 +3,10 @@
         {
             "samples": [
                 {
+                    "model": "MVC",
+                    "file": "docs/assets/00001_2.wav"
+                },
+                {
                     "model": "StyleTTS 2",
                     "file": "docs/assets/00001_2.wav"
                 },
@@ -13,10 +17,6 @@
                 {
                     "model": "VITS",
                     "file": "docs/assets/00001_2.wav"
-                },
-                {
-                    "model": "StyleTTS",
-                    "file": "docs/assets/00001_2.wav"
                 }
             ]
         }
@@ -26,8 +26,8 @@
             "text": "After the construction and action of the machine had been explained, the doctor asked the governor what kind of men he had commanded at Goree,",
             "models": [
                 { "name": "Ground Truth", "file": "docs/assets/00001_2.wav" },
+                { "name": "MVC", "file": "docs/assets/00001_2.wav" },
                 { "name": "StyleTTS 2", "file": "docs/assets/00001_2.wav" },
-                { "name": "NaturalSpeech", "file": "docs/assets/00001_2.wav" },
                 { "name": "JETS", "file": "docs/assets/00001_2.wav" },
                 { "name": "VITS", "file": "docs/assets/00001_2.wav" },
                 { "name": "StyleTTS", "file": "docs/assets/00001_2.wav" }
@@ -37,8 +37,8 @@
             "text": "The lax discipline maintained in Newgate was still further deteriorated by the presence of two other classes of prisoners who ought never to have been inmates of such a jail.",
             "models": [
                 { "name": "Ground Truth", "file": "docs/assets/00001_2.wav" },
-                { "name": "StyleTTS 2", "file": "docs/assets/00001_2.wav" },
                 { "name": "NaturalSpeech", "file": "docs/assets/00001_2.wav" },
+                { "name": "StyleTTS 2", "file": "docs/assets/00001_2.wav" },
                 { "name": "JETS", "file": "docs/assets/00001_2.wav" },
                 { "name": "VITS", "file": "docs/assets/00001_2.wav" },
                 { "name": "StyleTTS", "file": "docs/assets/00001_2.wav" }
