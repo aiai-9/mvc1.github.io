@@ -1,3 +1,4 @@
+
 fetch('data/samples.json')
     .then(response => response.json())
     .then(data => {
