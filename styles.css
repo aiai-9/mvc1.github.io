@@ -3,14 +3,17 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f9f9f9;
     color: #333;
-    margin: 20px;
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0;
+    padding: 20px;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 header {
     margin-bottom: 20px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 header h1 {
@@ -22,7 +25,7 @@ header h1 {
 header p {
     font-size: 16px;
     color: #666;
-    max-width: 100%;
+    max-width: 1200px;
     line-height: 1.6;
 }
 
@@ -30,12 +33,13 @@ header p {
 .sample-group {
     display: flex;
     flex-wrap: nowrap;
-    justify-content: flex-start;
     gap: 20px;
     overflow-x: auto;
     padding-bottom: 20px;
     margin-bottom: 30px;
-    padding-left: 0px; /* Ensure it aligns to the left */
+    padding-left: 0px;
+    max-width: 100%;
+    white-space: nowrap;  /* Prevent wrapping */
 }
 
 .sample {
@@ -46,13 +50,14 @@ header p {
     width: 250px;
     text-align: center;
     flex-shrink: 0;
-    margin-right: 20px; /* Add spacing between cards */
+    margin-right: 20px;
 }
 
 .sample h3 {
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 10px;
+    white-space: nowrap;
 }
 
 audio {
@@ -62,9 +67,12 @@ audio {
 
 /* Footer Styles */
 footer {
-    text-align: left;  /* Align to the left */
+    text-align: left;
     font-size: 14px;
     color: #777;
     margin-top: 40px;
     padding-left: 0px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
