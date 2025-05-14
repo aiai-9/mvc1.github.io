@@ -4,15 +4,14 @@ body {
     background-color: #f9f9f9;
     color: #333;
     margin: 0;
-    padding: 0;
+    padding: 20px;
     overflow-x: hidden;
 }
 
 header {
-    padding: 10px;
-    margin-bottom: 0;
+    padding: 20px;
     background-color: #f9f9f9;
-    max-width: 100%;
+    border-bottom: 1px solid #ccc;
 }
 
 header h1 {
@@ -21,56 +20,42 @@ header h1 {
     margin-bottom: 10px;
 }
 
-header p {
-    font-size: 16px;
-    color: #666;
-    line-height: 1.6;
-    max-width: 100%;
-    margin-bottom: 0;  /* Remove the bottom margin */
-}
-
 /* Audio Sample Styles */
-.sample-group {
+.sample-group,
+.model-group {
     display: flex;
     flex-wrap: nowrap;
     gap: 20px;
     overflow-x: auto;
-    padding-bottom: 10px;
-    margin-top: 0px;  /* Reduce top margin */
-    max-width: 50%;
-    white-space: nowrap;
-    justify-content: flex-start;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
-.sample {
-    background-color: transparent;
-    padding: 0;
-    border-radius: 0;
-    box-shadow: none;
-    width: auto;
+.sample, .model {
     text-align: center;
     flex-shrink: 0;
-    margin: 0 20px;
-    border: none;
 }
 
-.sample h3 {
-    font-size: 18px;
+.sample h3, .model h3 {
+    font-size: 16px;
     font-weight: bold;
     margin-bottom: 5px;
-    white-space: nowrap;
-    color: #333;
-    background-color: transparent;
-    padding: 0;
 }
 
-/* Audio Element Styles */
+/* Text Block Styles */
+.text-block {
+    margin-bottom: 30px;
+}
+
+.text-block p {
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+/* Audio Styles */
 audio {
     width: 200px;
-    margin-top: 0;
-    background-color: transparent;
-    border: none;
-    box-shadow: none;
 }
 
 /* Footer Styles */
@@ -79,6 +64,4 @@ footer {
     font-size: 14px;
     color: #777;
     margin-top: 40px;
-    padding-left: 20px;
-    max-width: 100%;
 }
