@@ -20,6 +20,16 @@ header h1 {
     margin-bottom: 10px;
 }
 /* Section Title Styles */
+.section-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 40px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    max-width: 100%;
+}
+
 #text-samples h2 {
     font-size: 22px;
     font-weight: bold;
