@@ -1,14 +1,24 @@
 {
-    "samples": [
+    "groups": [
         {
-            "title": "Sample 1: The quick brown fox jumps over the lazy dog",
-            "text": "The quick brown fox jumps over the lazy dog.",
-            "file": "assets/sample1.wav"
-        },
-        {
-            "title": "Sample 2: StyleTTS2 Demo",
-            "text": "Hello, this is a test for the StyleTTS2 demo.",
-            "file": "assets/sample2.wav"
+            "samples": [
+                {
+                    "model": "StyleTTS 2",
+                    "file": "docs/assets/00001 (4).wav"
+                },
+                {
+                    "model": "JETS",
+                    "file": "docs/assets/00001 (4).wav"
+                },
+                {
+                    "model": "VITS",
+                    "file": "docs/assets/00001 (4).wav"
+                },
+                {
+                    "model": "StyleTTS",
+                    "file": "docs/assets/00001 (4).wav"
+                }
+            ]
         }
     ]
 }
