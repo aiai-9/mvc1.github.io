@@ -37,7 +37,7 @@
             "text": "The lax discipline maintained in Newgate was still further deteriorated by the presence of two other classes of prisoners who ought never to have been inmates of such a jail.",
             "models": [
                 { "name": "Ground Truth", "file": "docs/assets/00001_2.wav" },
-                { "name": "NaturalSpeech", "file": "docs/assets/00001_2.wav" },
+                { "name": "MVC", "file": "docs/assets/00001_2.wav" },
                 { "name": "StyleTTS 2", "file": "docs/assets/00001_2.wav" },
                 { "name": "JETS", "file": "docs/assets/00001_2.wav" },
                 { "name": "VITS", "file": "docs/assets/00001_2.wav" },
