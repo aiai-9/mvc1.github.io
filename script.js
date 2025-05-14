@@ -9,7 +9,7 @@ fetch('data/samples.json')
                 <div class="text">${sample.text}</div>
                 <div class="audio-container">
                     <audio controls>
-                        <source src="assets/${sample.file}" type="audio/wav">
+                        <source src="${sample.file}" type="audio/wav">
                         Your browser does not support the audio element.
                     </audio>
                 </div>
