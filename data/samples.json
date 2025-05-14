@@ -2,113 +2,68 @@
     "groups": [
         {
             "samples": [
-                { "model": "MVC", "file": "docs/assets/00001_2.wav" },
-                { "model": "StyleTTS 2", "file": "docs/assets/00001_2.wav" },
-                { "model": "JETS", "file": "docs/assets/00001_2.wav" },
-                { "model": "VITS", "file": "docs/assets/00001_2.wav" }
+                {
+                    "model": "MVC",
+                    "file": "docs/assets/00001_2.wav"
+                },
+                {
+                    "model": "StyleTTS 2",
+                    "file": "docs/assets/00001_2.wav"
+                },
+                {
+                    "model": "JETS",
+                    "file": "docs/assets/00001_2.wav"
+                },
+                {
+                    "model": "VITS",
+                    "file": "docs/assets/00001_2.wav"
+                }
             ]
         }
     ],
     "texts": [
         {
-            "section": 1,
-            "title": "1. Single-Speaker (LJSpeech, In-Distribution Texts)",
-            "samples": [
-                {
-                    "text": "After the construction and action of the machine had been explained, the doctor asked the governor what kind of men he had commanded at Goree,",
-                    "models": [
-                        { "name": "Ground Truth", "file": "docs/assets/00001_2.wav" },
-                        { "name": "MVC", "file": "docs/assets/00001_2.wav" },
-                        { "name": "StyleTTS 2", "file": "docs/assets/00001_2.wav" },
-                        { "name": "JETS", "file": "docs/assets/00001_2.wav" },
-                        { "name": "VITS", "file": "docs/assets/00001_2.wav" },
-                        { "name": "StyleTTS", "file": "docs/assets/00001_2.wav" }
-                    ]
-                },
-                {
-                    "text": "The lax discipline maintained in Newgate was still further deteriorated by the presence of two other classes of prisoners who ought never to have been inmates of such a jail.",
-                    "models": [
-                        { "name": "Ground Truth", "file": "docs/assets/00001_2.wav" },
-                        { "name": "MVC", "file": "docs/assets/00001_2.wav" },
-                        { "name": "StyleTTS 2", "file": "docs/assets/00001_2.wav" },
-                        { "name": "JETS", "file": "docs/assets/00001_2.wav" },
-                        { "name": "VITS", "file": "docs/assets/00001_2.wav" },
-                        { "name": "StyleTTS", "file": "docs/assets/00001_2.wav" }
-                    ]
-                },
-                {
-                    "text": "Maltby and Co. would issue warrants on them deliverable to the importer, and the goods were then passed to be stored in neighboring warehouses.",
-                    "models": [
-                        { "name": "Ground Truth", "file": "docs/assets/00001_2.wav" },
-                        { "name": "MVC", "file": "docs/assets/00001_2.wav" },
-                        { "name": "StyleTTS 2", "file": "docs/assets/00001_2.wav" },
-                        { "name": "JETS", "file": "docs/assets/00001_2.wav" },
-                        { "name": "VITS", "file": "docs/assets/00001_2.wav" },
-                        { "name": "StyleTTS", "file": "docs/assets/00001_2.wav" }
-                    ]
-                },
-                {
-                    "text": "it is not possible to state with scientific certainty that a particular small group of fibers come from a certain piece of clothing.",
-                    "models": [
-                        { "name": "Ground Truth", "file": "docs/assets/00001_2.wav" },
-                        { "name": "MVC", "file": "docs/assets/00001_2.wav" },
-                        { "name": "StyleTTS 2", "file": "docs/assets/00001_2.wav" },
-                        { "name": "JETS", "file": "docs/assets/00001_2.wav" },
-                        { "name": "VITS", "file": "docs/assets/00001_2.wav" },
-                        { "name": "StyleTTS", "file": "docs/assets/00001_2.wav" }
-                    ]
-                }
+            "text": "After the construction and action of the machine had been explained, the doctor asked the governor what kind of men he had commanded at Goree,",
+            "models": [
+                { "name": "Ground Truth", "file": "docs/assets/00001_2.wav" },
+                { "name": "MVC", "file": "docs/assets/00001_2.wav" },
+                { "name": "StyleTTS 2", "file": "docs/assets/00001_2.wav" },
+                { "name": "JETS", "file": "docs/assets/00001_2.wav" },
+                { "name": "VITS", "file": "docs/assets/00001_2.wav" },
+                { "name": "StyleTTS", "file": "docs/assets/00001_2.wav" }
             ]
         },
         {
-            "section": 2,
-            "title": "2. Single-Speaker (LJSpeech, Out-of-Distribution Texts)",
-            "description": "This section contains OOD samples with ground truth audios taken from LibriVox. All the 40 clips used in our experiment can be downloaded here. Note the sample quality difference between this section and previous section.",
-            "samples": [
-                {
-                    "text": "Then leaving the corpse within the house they go themselves to and fro about the city and beat themselves, with their garments bound up by a girdle.",
-                    "models": [
-                        { "name": "Ground Truth", "file": "docs/assets/00001_2.wav" },
-                        { "name": "MVC", "file": "docs/assets/00001_2.wav" },
-                        { "name": "StyleTTS 2", "file": "docs/assets/00001_2.wav" },
-                        { "name": "JETS", "file": "docs/assets/00001_2.wav" },
-                        { "name": "VITS", "file": "docs/assets/00001_2.wav" },
-                        { "name": "StyleTTS", "file": "docs/assets/00001_2.wav" }
-                    ]
-                },
-                {
-                    "text": "Write your name and address clearly. Mail a note and a duplicate list at the time you send the box.",
-                    "models": [
-                        { "name": "Ground Truth", "file": "docs/assets/00001_2.wav" },
-                        { "name": "MVC", "file": "docs/assets/00001_2.wav" },
-                        { "name": "StyleTTS 2", "file": "docs/assets/00001_2.wav" },
-                        { "name": "JETS", "file": "docs/assets/00001_2.wav" },
-                        { "name": "VITS", "file": "docs/assets/00001_2.wav" },
-                        { "name": "StyleTTS", "file": "docs/assets/00001_2.wav" }
-                    ]
-                },
-                {
-                    "text": "Indeed, she is said to have angled with Napoleonic strategy for that same offer, and to have won it only after a sharp struggle of wits.",
-                    "models": [
-                        { "name": "Ground Truth", "file": "docs/assets/00001_2.wav" },
-                        { "name": "MVC", "file": "docs/assets/00001_2.wav" },
-                        { "name": "StyleTTS 2", "file": "docs/assets/00001_2.wav" },
-                        { "name": "JETS", "file": "docs/assets/00001_2.wav" },
-                        { "name": "VITS", "file": "docs/assets/00001_2.wav" },
-                        { "name": "StyleTTS", "file": "docs/assets/00001_2.wav" }
-                    ]
-                },
-                {
-                    "text": "Not as a lifeless thing, but with the same enjoyment of rest as gladdened the hearts of the two beings, who, with gratitude and love...",
-                    "models": [
-                        { "name": "Ground Truth", "file": "docs/assets/00001_2.wav" },
-                        { "name": "MVC", "file": "docs/assets/00001_2.wav" },
-                        { "name": "StyleTTS 2", "file": "docs/assets/00001_2.wav" },
-                        { "name": "JETS", "file": "docs/assets/00001_2.wav" },
-                        { "name": "VITS", "file": "docs/assets/00001_2.wav" },
-                        { "name": "StyleTTS", "file": "docs/assets/00001_2.wav" }
-                    ]
-                }
+            "text": "The lax discipline maintained in Newgate was still further deteriorated by the presence of two other classes of prisoners who ought never to have been inmates of such a jail.",
+            "models": [
+                { "name": "Ground Truth", "file": "docs/assets/00001_2.wav" },
+                { "name": "MVC", "file": "docs/assets/00001_2.wav" },
+                { "name": "StyleTTS 2", "file": "docs/assets/00001_2.wav" },
+                { "name": "JETS", "file": "docs/assets/00001_2.wav" },
+                { "name": "VITS", "file": "docs/assets/00001_2.wav" },
+                { "name": "StyleTTS", "file": "docs/assets/00001_2.wav" }
+            ]
+        },
+        {
+            "text": "Maltby and Co. would issue warrants on them deliverable to the importer, and the goods were then passed to be stored in neighboring warehouses.",
+            "models": [
+                { "name": "Ground Truth", "file": "docs/assets/00001_2.wav" },
+                { "name": "MVC", "file": "docs/assets/00001_2.wav" },
+                { "name": "StyleTTS 2", "file": "docs/assets/00001_2.wav" },
+                { "name": "JETS", "file": "docs/assets/00001_2.wav" },
+                { "name": "VITS", "file": "docs/assets/00001_2.wav" },
+                { "name": "StyleTTS", "file": "docs/assets/00001_2.wav" }
+            ]
+        },
+        {
+            "text": "It is not possible to state with scientific certainty that a particular small group of fibers come from a certain piece of clothing.",
+            "models": [
+                { "name": "Ground Truth", "file": "docs/assets/00001_2.wav" },
+                { "name": "MVC", "file": "docs/assets/00001_2.wav" },
+                { "name": "StyleTTS 2", "file": "docs/assets/00001_2.wav" },
+                { "name": "JETS", "file": "docs/assets/00001_2.wav" },
+                { "name": "VITS", "file": "docs/assets/00001_2.wav" },
+                { "name": "StyleTTS", "file": "docs/assets/00001_2.wav" }
             ]
         }
     ]
