@@ -51,6 +51,7 @@ header p {
     text-align: center;
     flex-shrink: 0;
     margin: 0 20px;
+    border: none;  /* Ensure no border is applied */
 }
 
 .sample h3 {
@@ -60,13 +61,16 @@ header p {
     white-space: nowrap;
     color: #333;
     background-color: transparent;
+    padding: 0;
 }
 
+/* Audio Element Styles */
 audio {
-    width: 200px; /* Adjust the width */
+    width: 200px;
     margin-top: 0;
     background-color: transparent;
-    border: none;
+    border: none;  /* Ensure no border is applied */
+    box-shadow: none;  /* Remove box shadow */
 }
 
 /* Footer Styles */
