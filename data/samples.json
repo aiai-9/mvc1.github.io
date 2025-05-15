@@ -1,23 +1,22 @@
-
 {
     "groups": [
         {
             "samples": [
                 {
                     "model": "MVC",
-                    "file": "docs/assets/00001_2.wav"
+                    "file": "assets/00001_2.wav"
                 },
                 {
                     "model": "StyleTTS 2",
-                    "file": "docs/assets/00001_2.wav"
+                    "file": "assets/00001_2.wav"
                 },
                 {
                     "model": "JETS",
-                    "file": "docs/assets/00001_2.wav"
+                    "file": "assets/00001_2.wav"
                 },
                 {
                     "model": "VITS",
-                    "file": "docs/assets/00001_2.wav"
+                    "file": "assets/00001_2.wav"
                 }
             ]
         }
