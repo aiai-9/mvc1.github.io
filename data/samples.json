@@ -66,6 +66,6 @@
                 { "name": "VITS", "file": "docs/assets/00001_2.wav" },
                 { "name": "StyleTTS", "file": "docs/assets/00001_2.wav" }
             ]
-        },
+        }
     ]
 }
