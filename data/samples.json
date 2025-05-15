@@ -113,25 +113,7 @@
                         { "name": "JETS", "file": "../docs/assets/00001_2.wav" },
                         { "name": "VITS", "file": "../docs/assets/00001_2.wav" }
                     ]
-                },
-                {
-            "title": "3. Zero-shot Speaker Adaptation (LibriTTS)",
-            "description": "This section contains samples from our multi-speaker LibriTTS model. For each model, the size of the training set is provided. Note that all speakers are unseen during the training process.",
-            "texts": [
-                "Yea, his honourable worship is within, but he hath a godly minister or two with him, and likewise a leech.",
-                "Thus did this humane and right minded father comfort his unhappy daughter, and her mother embracing her again, did all she could to soothe her feelings.",
-                "And lay me down in my cold bed and leave my shining lot.",
-                "The army found the people in poverty and left them in comparative wealth."
-            ],
-            "models": [
-                { "name": "Ground Truth", "file": "../docs/assets/00001_2.wav" },
-                { "name": "Reference", "file": "../docs/assets/00001_2.wav" },
-                { "name": "StyleTTS 2 (~245 Hours)", "file": "../docs/assets/00001_2.wav" },
-                { "name": "VALL-E (~60k Hours)", "file": "../docs/assets/00001_2.wav" },
-                { "name": "NaturalSpeech 2 (~44k Hours)", "file": "../docs/assets/00001_2.wav" },
-                { "name": "StyleTTS (~245 Hours)", "file": "../docs/assets/00001_2.wav" },
-                { "name": "VITS (~245 Hours)", "file": "../docs/assets/00001_2.wav" },
-                { "name": "YourTTS (~300 Hours)", "file": "../docs/assets/00001_2.wav" }
+                }
             ]
         }
     ]
