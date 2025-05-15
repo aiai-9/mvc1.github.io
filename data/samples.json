@@ -40,34 +40,34 @@
                 {
                     "text": "The lax discipline maintained in Newgate was still further deteriorated by the presence of two other classes of prisoners who ought never to have been inmates of such a jail.",
                     "models": [
-                        { "name": "Ground Truth", "file": "docs/assets/2a-gt.wav" },
+                        { "name": "Ground Truth", "file": "docs/assets/1b_gt.wav" },
                         { "name": "MVC", "file": "docs/assets/00001_2.wav" },
-                        { "name": "StyleTTS 2", "file": "docs/assets/2a-st2.wav" },
-                        { "name": "JETS", "file": "docs/assets/2a-jets.wav" },
-                        { "name": "VITS", "file": "docs/assets/2a-vits.wav" },
-                        { "name": "StyleTTS", "file": "docs/assets/2a-st.wav" }
+                        { "name": "StyleTTS 2", "file": "docs/assets/1b_st2.wav" },
+                        { "name": "JETS", "file": "docs/assets/1b_jets.wav" },
+                        { "name": "VITS", "file": "docs/assets/1b_vits.wav" },
+                        { "name": "StyleTTS", "file": "docs/assets/1b_st.wav" }
                     ]
                 },
                 {
                     "text": "Maltby and Co. would issue warrants on them deliverable to the importer, and the goods were then passed to be stored in neighboring warehouses.",
                     "models": [
-                        { "name": "Ground Truth", "file": "docs/assets/00001_2.wav" },
+                        { "name": "Ground Truth", "file": "docs/assets/1c_gt.wav" },
                         { "name": "MVC", "file": "docs/assets/00001_2.wav" },
-                        { "name": "StyleTTS 2", "file": "docs/assets/00001_2.wav" },
-                        { "name": "JETS", "file": "docs/assets/00001_2.wav" },
-                        { "name": "VITS", "file": "docs/assets/00001_2.wav" },
-                        { "name": "StyleTTS", "file": "docs/assets/00001_2.wav" }
+                        { "name": "StyleTTS 2", "file": "docs/assets/1c_st2.wav" },
+                        { "name": "JETS", "file": "docs/assets/1c_jets.wav" },
+                        { "name": "VITS", "file": "docs/assets/1c_vits.wav" },
+                        { "name": "StyleTTS", "file": "docs/assets/1c_st.wav" }
                     ]
                 },
                 {
                     "text": " it is not possible to state with scientific certainty that a particular small group of fibers come from a certain piece of clothing.",
                     "models": [
-                        { "name": "Ground Truth", "file": "docs/assets/00001_2.wav" },
+                        { "name": "Ground Truth", "file": "docs/assets/1d_gt.wav" },
                         { "name": "MVC", "file": "docs/assets/00001_2.wav" },
-                        { "name": "StyleTTS 2", "file": "docs/assets/00001_2.wav" },
-                        { "name": "JETS", "file": "docs/assets/00001_2.wav" },
-                        { "name": "VITS", "file": "docs/assets/00001_2.wav" },
-                        { "name": "StyleTTS", "file": "docs/assets/00001_2.wav" }
+                        { "name": "StyleTTS 2", "file": "docs/assets/1d_st2.wav" },
+                        { "name": "JETS", "file": "docs/assets/1d_jets.wav" },
+                        { "name": "VITS", "file": "docs/assets/1d_vits.wav" },
+                        { "name": "StyleTTS", "file": "docs/assets/1d_st.wav" }
                     ]
                 }
             ]
