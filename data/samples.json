@@ -174,9 +174,10 @@
             ]
         },
         {
+            "title": "4. Trump Voice Cloning",
             "samples": [
                     {
-                        "title": "4. Trump Voice Cloning",
+                       
                         "text": "After the construction and action of the machine had been explained, the doctor asked the governor what kind of men he had commanded at Goree,",
                         "models": [
                             { "name": "Ground Truth", "file": "docs/assests/1a-gt.wav" },
