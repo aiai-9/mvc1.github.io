@@ -183,7 +183,7 @@
                             { "name": "Ground Truth", "file": "docs/assests/1a-gt.wav" },
                             { "name": "MVC", "file": "docs/assests/00001_2.wav" },
                             { "name": "StyleTTS 2", "file": "docs/assests/1a-st2.wav" },
-                            { "name": "JETS", "file": "docs/assests/1a-jets.wav" }
+                            { "name": "VITS", "file": "docs/assests/1a-jets.wav" }
                         ]
                     },
     
@@ -193,7 +193,7 @@
                             { "name": "Ground Truth", "file": "docs/assests/1b_gt.wav" },
                             { "name": "MVC", "file": "docs/assests/00001_2.wav" },
                             { "name": "StyleTTS 2", "file": "docs/assests/1b_st2.wav" },
-                            { "name": "JETS", "file": "docs/assests/1b_jets.wav" }
+                            { "name": "VITS", "file": "docs/assests/1b_jets.wav" }
                         ]
                     },
                     {
@@ -202,7 +202,7 @@
                             { "name": "Ground Truth", "file": "docs/assests/1c_gt.wav" },
                             { "name": "MVC", "file": "docs/assests/00001_2.wav" },
                             { "name": "StyleTTS 2", "file": "docs/assests/1c_st2.wav" },
-                            { "name": "JETS", "file": "docs/assests/1c_jets.wav" }
+                            { "name": "VITS", "file": "docs/assests/1c_jets.wav" }
                         ]
                     },
                     {
@@ -211,7 +211,7 @@
                             { "name": "Ground Truth", "file": "docs/assests/1d_gt.wav" },
                             { "name": "MVC", "file": "docs/assests/00001_2.wav" },
                             { "name": "StyleTTS 2", "file": "docs/assests/1d_st2.wav" },
-                            { "name": "JETS", "file": "docs/assests/1d_jets.wav" }
+                            { "name": "VITS", "file": "docs/assests/1d_jets.wav" }
                     ]
                 }
             ]
