@@ -81,11 +81,11 @@
                     "text": "Then leaving the corpse within the house they go themselves to and fro about the city and beat themselves, with their garments bound up by a girdle.",
                     "models": [
                         { "name": "Ground Truth", "file": "docs/assests/2a_gt.wav" },
-                        { "name": "MVC", "file": "../docs/assests/00001_2.wav" },
-                        { "name": "StyleTTS 2", "file": "../docs/assests/2a_st2.wav" },
-                        { "name": "JETS", "file": "../docs/assests/2a_jets.wav" },
-                        { "name": "VITS", "file": "../docs/assests/2a_vits.wav" },
-                        { "name": "StyleTTS", "file": "../docs/assests/2a_st.wav" }
+                        { "name": "MVC", "file": "docs/assests/00001_2.wav" },
+                        { "name": "StyleTTS 2", "file": "docs/assests/2a_st2.wav" },
+                        { "name": "JETS", "file": "docs/assests/2a_jets.wav" },
+                        { "name": "VITS", "file": "docs/assests/2a_vits.wav" },
+                        { "name": "StyleTTS", "file": "docs/assests/2a_st.wav" }
                     ]
                 },
                 {
