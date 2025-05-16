@@ -81,7 +81,7 @@
                     "text": "Then leaving the corpse within the house they go themselves to and fro about the city and beat themselves, with their garments bound up by a girdle.",
                     "models": [
                         { "name": "Ground Truth", "file": "docs/assests/2a_gt.wav" },
-                        { "name": "MVC", "file": "docs/assests/00001_2.wav" },
+                        { "name": "MVC", "file": "docs/assests/2a_mvc.wav" },
                         { "name": "StyleTTS 2", "file": "docs/assests/2a_st2.wav" },
                         { "name": "JETS", "file": "docs/assests/2a_jets.wav" },
                         { "name": "VITS", "file": "docs/assests/2a_vits.wav" },
@@ -92,7 +92,7 @@
                     "text": "Write your name and address clearly. Mail a note and a duplicate list at the time you send the box.",
                     "models": [
                         { "name": "Ground Truth", "file": "docs/assests/2b_gt.wav" },
-                        { "name": "MVC", "file": "docs/assests/00001_2.wav" },
+                        { "name": "MVC", "file": "docs/assests/2b_mvc.wav" },
                         { "name": "StyleTTS 2", "file": "docs/assests/2b_st2.wav" },
                         { "name": "JETS", "file": "docs/assests/2b_jets.wav" },
                         { "name": "VITS", "file": "docs/assests/2b_vits.wav" },
@@ -103,7 +103,7 @@
                     "text": "Indeed, she is said to have angled with Napoleonic strategy for that same offer, and to have won it only after a sharp struggle of wits.",
                     "models": [
                         { "name": "Ground Truth", "file": "docs/assests/2c_gt.wav" },
-                        { "name": "MVC", "file": "docs/assests/00001_2.wav" },
+                        { "name": "MVC", "file": "docs/assests/2c_mvc.wav" },
                         { "name": "StyleTTS 2", "file": "docs/assests/2c_st2.wav" },
                         { "name": "JETS", "file": "docs/assests/2c_jets.wav" },
                         { "name": "VITS", "file": "docs/assests/2c_vits.wav" },
@@ -114,7 +114,7 @@
                     "text": "Not as a lifeless thing, but with the same enjoyment of rest as gladdened the hearts of the two beings, who, with gratitude and love...",
                     "models": [
                         { "name": "Ground Truth", "file": "docs/assests/2d_gt.wav" },
-                        { "name": "MVC", "file": "docs/assests/00001_2.wav" },
+                        { "name": "MVC", "file": "docs/assests/2d_mvc.wav" },
                         { "name": "StyleTTS 2", "file": "docs/assests/2d_st2.wav" },
                         { "name": "JETS", "file": "docs/assests/2d_jets.wav" },
                         { "name": "VITS", "file": "docs/assests/2d_vits.wav" },
