@@ -352,6 +352,52 @@
                     ]
                 }
             ]
-        }
+        },
+
+        {
+            "title": "7. Speech Diversity",
+            "description": "How much variation is there?",
+            "texts": [
+                {
+                    "models": [
+                        {
+                            "name": "StyleTTS 2",
+                            "files": [
+                                "docs/assests/diversity_styletts_1.wav",
+                                "docs/assests/diversity_styletts_2.wav",
+                                "docs/assests/diversity_styletts_3.wav",
+                                "docs/assests/diversity_styletts_4.wav"
+                            ]
+                        },
+                        {
+                            "name": "VITS",
+                            "files": [
+                                "docs/assests/diversity_vits_1.wav",
+                                "docs/assests/diversity_vits_2.wav",
+                                "docs/assests/diversity_vits_3.wav",
+                                "docs/assests/diversity_vits_4.wav"
+                            ]
+                        },
+                        {
+                            "name": "FastDiff",
+                            "files": [
+                                "docs/assests/diversity_fastdiff_1.wav",
+                                "docs/assests/diversity_fastdiff_2.wav",
+                                "docs/assests/diversity_fastdiff_3.wav",
+                                "docs/assests/diversity_fastdiff_4.wav"
+                            ]
+                        },
+                        {
+                            "name": "StyleTTS 2 (unseen speaker)",
+                            "files": [
+                                "docs/assests/diversity_styletts_unseen_1.wav",
+                                "docs/assests/diversity_styletts_unseen_2.wav",
+                                "docs/assests/diversity_styletts_unseen_3.wav",
+                                "docs/assests/diversity_styletts_unseen_4.wav"
+                            ]
+                        }
+                    ]
+                }
+        
     ]
 }
