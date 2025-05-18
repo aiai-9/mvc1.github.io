@@ -176,13 +176,7 @@
         {
             "title": "4. Donald Trump Voice Cloning",
             "samples": [
-                    {
-                      
-                        "models": [
-                            { "name": "References", "file": "docs/assests/trump.wav" },
-                            
-                        ]
-                    },
+                   
                 
                     {
                       
