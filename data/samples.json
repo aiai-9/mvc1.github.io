@@ -132,6 +132,7 @@
                     "models": [
                         { "name": "Ground Truth", "file": "docs/assests/3a_gt.wav" },
                         { "name": "Reference", "file": "docs/assests/3a_ref.wav" },
+                        { "name": "MVC (~245 Hours)", "file": "docs/assests/3a_mvc.wav" },
                         { "name": "StyleTTS 2 (~245 Hours)", "file": "docs/assests/3a_st2.wav" },
                         { "name": "VITS (~245 Hours)", "file": "docs/assests/3a_vits.wav" }  
                     ]
@@ -141,6 +142,7 @@
                     "models": [
                         { "name": "Ground Truth", "file": "docs/assests/3a_gt.wav" },
                         { "name": "Reference", "file": "docs/assests/3a_ref.wav" },
+                        { "name": "MVC (~245 Hours)", "file": "docs/assests/3a_mvc.wav" },
                         { "name": "StyleTTS 2 (~245 Hours)", "file": "docs/assests/3a_st2.wav" },
                         { "name": "VITS (~245 Hours)", "file": "docs/assests/3a_vits.wav" }
                     ]
@@ -150,6 +152,7 @@
                     "models": [
                         { "name": "Ground Truth", "file": "docs/assests/3a_gt.wav" },
                         { "name": "Reference", "file": "docs/assests/3a_ref.wav" },
+                        { "name": "MVC (~245 Hours)", "file": "docs/assests/3a_mvc.wav" },
                         { "name": "StyleTTS 2 (~245 Hours)", "file": "docs/assests/3a_st2.wav" },
                         { "name": "VITS (~245 Hours)", "file": "docs/assests/3a_vits.wav" }
                     ]
@@ -159,6 +162,7 @@
                     "models": [
                         { "name": "Ground Truth", "file": "docs/assests/3a_gt.wav" },
                         { "name": "Reference", "file": "docs/assests/3a_ref.wav" },
+                        { "name": "MVC (~245 Hours)", "file": "docs/assests/3a_mvc.wav" },
                         { "name": "StyleTTS 2 (~245 Hours)", "file": "docs/assests/3a_st2.wav" },
                         { "name": "VITS (~245 Hours)", "file": "docs/assests/3a_vits.wav" }
                     ]
