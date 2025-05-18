@@ -177,12 +177,10 @@
             "title": "4. Donald Trump Voice Cloning",
             "samples": [
                     {
-                       "models": [
-                            { "name": "References", "file": "docs/assests/trump.wav" }
-                       ]
+                      
                         "text": "After the construction and action of the machine had been explained, the doctor asked the governor what kind of men he had commanded at Goree,",
                         "models": [
-                            
+                            { "name": "References", "file": "docs/assests/trump.wav" },
                             { "name": "MVC", "file": "docs/assests/4a_mvc.wav" },
                             { "name": "StyleTTS 2", "file": "docs/assests/4a_st2.wav" },
                             { "name": "VITS", "file": "docs/assests/4a_vits.wav" }
