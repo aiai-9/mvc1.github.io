@@ -274,10 +274,10 @@
                       
                         "text": "After the construction and action of the machine had been explained, the doctor asked the governor what kind of men he had commanded at Goree,",
                         "models": [
-                            { "name": "References", "file": "docs/assests/trump.wav" },
-                            { "name": "MVC", "file": "docs/assests/4a_mvc.wav" },
-                            { "name": "StyleTTS 2", "file": "docs/assests/4a_st2.wav" },
-                            { "name": "VITS", "file": "docs/assests/4a_vits.wav" }
+                            { "name": "References", "file": "docs/assests/jensen.wav" },
+                            { "name": "MVC", "file": "docs/assests/6a_mvc.wav" },
+                            { "name": "StyleTTS 2", "file": "docs/assests/6a_st2.wav" },
+                            { "name": "VITS", "file": "docs/assests/6a_vits.wav" }
                         ]
                     },
                     
@@ -286,27 +286,27 @@
                         "text": "The lax discipline maintained in Newgate was still further deteriorated by the presence of two other classes of prisoners who ought never to have been inmates of such a jail.",
                         "models": [
                             
-                            { "name": "MVC", "file": "docs/assests/4b_mvc.wav" },
-                            { "name": "StyleTTS 2", "file": "docs/assests/4b_st2.wav" },
-                            { "name": "VITS", "file": "docs/assests/4b_vits.wav" }
+                            { "name": "MVC", "file": "docs/assests/6b_mvc.wav" },
+                            { "name": "StyleTTS 2", "file": "docs/assests/6b_st2.wav" },
+                            { "name": "VITS", "file": "docs/assests/6b_vits.wav" }
                         ]
                     },
                     {
                         "text": "Maltby and Co. would issue warrants on them deliverable to the importer, and the goods were then passed to be stored in neighboring warehouses.",
                         "models": [
                            
-                            { "name": "MVC", "file": "docs/assests/4c_mvc.wav" },
-                            { "name": "StyleTTS 2", "file": "docs/assests/4c_st2.wav" },
-                            { "name": "VITS", "file": "docs/assests/4c_vits.wav" }
+                            { "name": "MVC", "file": "docs/assests/6c_mvc.wav" },
+                            { "name": "StyleTTS 2", "file": "docs/assests/6c_st2.wav" },
+                            { "name": "VITS", "file": "docs/assests/6c_vits.wav" }
                         ]
                     },
                     {
                         "text": " it is not possible to state with scientific certainty that a particular small group of fibers come from a certain piece of clothing.",
                         "models": [
                             
-                            { "name": "MVC", "file": "docs/assests/4d_mvc.wav" },
-                            { "name": "StyleTTS 2", "file": "docs/assests/4d_st2.wav" },
-                            { "name": "VITS", "file": "docs/assests/4d_vits.wav" }
+                            { "name": "MVC", "file": "docs/assests/6d_mvc.wav" },
+                            { "name": "StyleTTS 2", "file": "docs/assests/6d_st2.wav" },
+                            { "name": "VITS", "file": "docs/assests/6d_vits.wav" }
                     ]
                 }
             ]
@@ -320,7 +320,7 @@
                       
                         "text": "After the construction and action of the machine had been explained, the doctor asked the governor what kind of men he had commanded at Goree,",
                         "models": [
-                            { "name": "References", "file": "docs/assests/trump.wav" },
+                            { "name": "References", "file": "docs/assests/taylor.wav" },
                             { "name": "MVC", "file": "docs/assests/4a_mvc.wav" },
                             { "name": "StyleTTS 2", "file": "docs/assests/4a_st2.wav" },
                             { "name": "VITS", "file": "docs/assests/4a_vits.wav" }
