@@ -190,7 +190,7 @@
                     {
                         "text": "The lax discipline maintained in Newgate was still further deteriorated by the presence of two other classes of prisoners who ought never to have been inmates of such a jail.",
                         "models": [
-                            { "name": "Ground Truth", "file": "docs/assests/1b_gt.wav" },
+                            
                             { "name": "MVC", "file": "docs/assests/4b_mvc.wav" },
                             { "name": "StyleTTS 2", "file": "docs/assests/4b_st2.wav" },
                             { "name": "VITS", "file": "docs/assests/4b_vits.wav" }
@@ -199,7 +199,7 @@
                     {
                         "text": "Maltby and Co. would issue warrants on them deliverable to the importer, and the goods were then passed to be stored in neighboring warehouses.",
                         "models": [
-                            { "name": "Ground Truth", "file": "docs/assests/1c_gt.wav" },
+                           
                             { "name": "MVC", "file": "docs/assests/4c_mvc.wav" },
                             { "name": "StyleTTS 2", "file": "docs/assests/4c_st2.wav" },
                             { "name": "VITS", "file": "docs/assests/4c_vits.wav" }
@@ -208,7 +208,7 @@
                     {
                         "text": " it is not possible to state with scientific certainty that a particular small group of fibers come from a certain piece of clothing.",
                         "models": [
-                            { "name": "Ground Truth", "file": "docs/assests/1d_gt.wav" },
+                            
                             { "name": "MVC", "file": "docs/assests/4d_mvc.wav" },
                             { "name": "StyleTTS 2", "file": "docs/assests/4d_st2.wav" },
                             { "name": "VITS", "file": "docs/assests/4d_vits.wav" }
