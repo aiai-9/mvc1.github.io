@@ -19,6 +19,32 @@ header h1 {
     color: #333;
     margin-bottom: 10px;
 }
+
+/* Table Styles for Multi-Column Layout */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+table td {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+audio {
+    width: 150px;
+    margin: 5px 0;
+}
+
 /* Section Title Styles */
 .section-title {
     font-size: 22px;
