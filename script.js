@@ -18,57 +18,33 @@ fetch('data/samples.json')
                 textSamplesContainer.appendChild(sectionDesc);
             }
 
-            // Handle Speech Diversity (no text field)
-            if (section.title === "8. Speech Diversity" && section.models) {
-                const modelGroup = document.createElement('div');
-                modelGroup.classList.add('model-group');
-
+            // Handle Speech Diversity Section
+            if (section.title === "8. Speech Diversity") {
                 section.models.forEach(model => {
-                    const modelRow = document.createElement('div');
-                    modelRow.classList.add('model');
-                    modelRow.innerHTML = `<h3>${model.name}</h3>`;
+                    // Create row for each model
+                    const rowElement = document.createElement('div');
+                    rowElement.classList.add('speech-row');
 
+                    // Add model name
+                    const modelName = document.createElement('div');
+                    modelName.classList.add('model-name');
+                    modelName.textContent = model.name;
+                    rowElement.appendChild(modelName);
+
+                    // Add audio files
                     model.files.forEach(file => {
-                        const audioElement = `
+                        const audioElement = document.createElement('div');
+                        audioElement.classList.add('model');
+                        audioElement.innerHTML = `
                             <audio controls>
                                 <source src="${file}" type="audio/wav">
                                 Your browser does not support the audio element.
                             </audio>
                         `;
-                        modelRow.innerHTML += audioElement;
+                        rowElement.appendChild(audioElement);
                     });
 
-                    modelGroup.appendChild(modelRow);
-                });
-
-                textSamplesContainer.appendChild(modelGroup);
-            }
-
-            // Handle regular text samples
-            if (section.samples) {
-                section.samples.forEach(sample => {
-                    const textElement = document.createElement('div');
-                    textElement.classList.add('text-block');
-                    textElement.innerHTML = `<p><strong>Text:</strong> ${sample.text}</p>`;
-
-                    const modelGroup = document.createElement('div');
-                    modelGroup.classList.add('model-group');
-
-                    sample.models.forEach(model => {
-                        const modelElement = document.createElement('div');
-                        modelElement.classList.add('model');
-                        modelElement.innerHTML = `
-                            <h3>${model.name}</h3>
-                            <audio controls>
-                                <source src="${model.file}" type="audio/wav">
-                                Your browser does not support the audio element.
-                            </audio>
-                        `;
-                        modelGroup.appendChild(modelElement);
-                    });
-
-                    textElement.appendChild(modelGroup);
-                    textSamplesContainer.appendChild(textElement);
+                    textSamplesContainer.appendChild(rowElement);
                 });
             }
 
