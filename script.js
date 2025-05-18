@@ -18,35 +18,37 @@ fetch('data/samples.json')
                 textSamplesContainer.appendChild(sectionDesc);
             }
 
-            // Add text samples
-            section.samples.forEach(sample => {
-                const textElement = document.createElement('div');
-                textElement.classList.add('text-block');
-                textElement.innerHTML = `<p><strong>Text:</strong> ${sample.text}</p>`;
-
-                const modelGroup = document.createElement('div');
-                modelGroup.classList.add('model-group');
-
-                sample.models.forEach(model => {
-                    const modelElement = document.createElement('div');
-                    modelElement.classList.add('model');
-                    modelElement.innerHTML = `
-                        <h3>${model.name}</h3>
-                        <audio controls>
-                            <source src="${model.file}" type="audio/wav">
-                            Your browser does not support the audio element.
-                        </audio>
-                    `;
-                    modelGroup.appendChild(modelElement);
+            // Handle multi-column layout for section 3
+            if (Array.isArray(section.texts)) {
+                const table = document.createElement('table');
+                const headerRow = document.createElement('tr');
+                
+                // Add headers (Text samples)
+                section.texts[0].text.forEach(text => {
+                    const th = document.createElement('th');
+                    th.innerHTML = `<p>${text}</p>`;
+                    headerRow.appendChild(th);
                 });
-
-                textElement.appendChild(modelGroup);
-                textSamplesContainer.appendChild(textElement);
-            });
-
-            // Add a horizontal line after each section
-            const hrElement = document.createElement('hr');
-            textSamplesContainer.appendChild(hrElement);
+                table.appendChild(headerRow);
+                
+                // Add each model and its corresponding audio files
+                section.texts[0].models.forEach(model => {
+                    const row = document.createElement('tr');
+                    model.files.forEach(file => {
+                        const td = document.createElement('td');
+                        td.innerHTML = `
+                            <audio controls>
+                                <source src="${file}" type="audio/wav">
+                                Your browser does not support the audio element.
+                            </audio>
+                        `;
+                        row.appendChild(td);
+                    });
+                    table.appendChild(row);
+                });
+                
+                textSamplesContainer.appendChild(table);
+            }
         });
     })
     .catch(error => console.error('Error loading samples:', error));
