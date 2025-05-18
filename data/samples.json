@@ -126,57 +126,57 @@
         {
             "title": "3. Zero-shot Speaker Adaptation (LibriTTS)",
             "description": "This section contains samples from our multi-speaker LibriTTS model. For each model, the size of the training set is provided. Note that all speakers are unseen during the training process.",
-            "texts": [
+            "samples": [
                 {
                     "text": "Yea, his honourable worship is within, but he hath a godly minister or two with him, and likewise a leech.",
                     "models": [
-                        { "name": "Ground Truth", "file": "docs/assets/3a_gt.wav" },
-                        { "name": "Reference", "file": "docs/assets/3a_ref.wav" },
-                        { "name": "StyleTTS 2 (~245 Hours)", "file": "docs/assets/3a_st2.wav" },
-                        { "name": "VALL-E (~60k Hours)", "file": "docs/assets/3a_valle.wav" },
-                        { "name": "NaturalSpeech 2 (~44k Hours)", "file": "docs/assets/3a_natspeech.wav" },
-                        { "name": "StyleTTS (~245 Hours)", "file": "docs/assets/3a_st.wav" },
-                        { "name": "VITS (~245 Hours)", "file": "docs/assets/3a_vits.wav" },
-                        { "name": "YourTTS (~300 Hours)", "file": "docs/assets/3a_yourtts.wav" }
+                        { "name": "Ground Truth", "file": "docs/assests/3a_gt.wav" },
+                        { "name": "Reference", "file": "docs/assests/3a_ref.wav" },
+                        { "name": "StyleTTS 2 (~245 Hours)", "file": "docs/assests/3a_st2.wav" },
+                        { "name": "VALL-E (~60k Hours)", "file": "docs/assests/3a_valle.wav" },
+                        { "name": "NaturalSpeech 2 (~44k Hours)", "file": "docs/assests/3a_natspeech.wav" },
+                        { "name": "StyleTTS (~245 Hours)", "file": "docs/assests/3a_st.wav" },
+                        { "name": "VITS (~245 Hours)", "file": "docs/assests/3a_vits.wav" },
+                        { "name": "YourTTS (~300 Hours)", "file": "docs/assests/3a_yourtts.wav" }
                     ]
                 },
                 {
                     "text": "Thus did this humane and right minded father comfort his unhappy daughter, and her mother embracing her again, did all she could to soothe her feelings.",
                     "models": [
-                        { "name": "Ground Truth", "file": "docs/assets/3b_gt.wav" },
-                        { "name": "Reference", "file": "docs/assets/3b_ref.wav" },
-                        { "name": "StyleTTS 2 (~245 Hours)", "file": "docs/assets/3b_st2.wav" },
-                        { "name": "VALL-E (~60k Hours)", "file": "docs/assets/3b_valle.wav" },
-                        { "name": "NaturalSpeech 2 (~44k Hours)", "file": "docs/assets/3b_natspeech.wav" },
-                        { "name": "StyleTTS (~245 Hours)", "file": "docs/assets/3b_st.wav" },
-                        { "name": "VITS (~245 Hours)", "file": "docs/assets/3b_vits.wav" },
-                        { "name": "YourTTS (~300 Hours)", "file": "docs/assets/3b_yourtts.wav" }
+                        { "name": "Ground Truth", "file": "docs/assests/3b_gt.wav" },
+                        { "name": "Reference", "file": "docs/assests/3b_ref.wav" },
+                        { "name": "StyleTTS 2 (~245 Hours)", "file": "docs/assests/3b_st2.wav" },
+                        { "name": "VALL-E (~60k Hours)", "file": "docs/assests/3b_valle.wav" },
+                        { "name": "NaturalSpeech 2 (~44k Hours)", "file": "docs/assests/3b_natspeech.wav" },
+                        { "name": "StyleTTS (~245 Hours)", "file": "docs/assests/3b_st.wav" },
+                        { "name": "VITS (~245 Hours)", "file": "docs/assests/3b_vits.wav" },
+                        { "name": "YourTTS (~300 Hours)", "file": "docs/assests/3b_yourtts.wav" }
                     ]
                 },
                 {
                     "text": "And lay me down in my cold bed and leave my shining lot.",
                     "models": [
-                        { "name": "Ground Truth", "file": "docs/assets/3c_gt.wav" },
-                        { "name": "Reference", "file": "docs/assets/3c_ref.wav" },
-                        { "name": "StyleTTS 2 (~245 Hours)", "file": "docs/assets/3c_st2.wav" },
-                        { "name": "VALL-E (~60k Hours)", "file": "docs/assets/3c_valle.wav" },
-                        { "name": "NaturalSpeech 2 (~44k Hours)", "file": "docs/assets/3c_natspeech.wav" },
-                        { "name": "StyleTTS (~245 Hours)", "file": "docs/assets/3c_st.wav" },
-                        { "name": "VITS (~245 Hours)", "file": "docs/assets/3c_vits.wav" },
-                        { "name": "YourTTS (~300 Hours)", "file": "docs/assets/3c_yourtts.wav" }
+                        { "name": "Ground Truth", "file": "docs/assests/3c_gt.wav" },
+                        { "name": "Reference", "file": "docs/assests/3c_ref.wav" },
+                        { "name": "StyleTTS 2 (~245 Hours)", "file": "docs/assests/3c_st2.wav" },
+                        { "name": "VALL-E (~60k Hours)", "file": "docs/assests/3c_valle.wav" },
+                        { "name": "NaturalSpeech 2 (~44k Hours)", "file": "docs/assests/3c_natspeech.wav" },
+                        { "name": "StyleTTS (~245 Hours)", "file": "docs/assests/3c_st.wav" },
+                        { "name": "VITS (~245 Hours)", "file": "docs/assests/3c_vits.wav" },
+                        { "name": "YourTTS (~300 Hours)", "file": "docs/assests/3c_yourtts.wav" }
                     ]
                 },
                 {
                     "text": "The army found the people in poverty and left them in comparative wealth.",
                     "models": [
-                        { "name": "Ground Truth", "file": "docs/assets/3d_gt.wav" },
-                        { "name": "Reference", "file": "docs/assets/3d_ref.wav" },
-                        { "name": "StyleTTS 2 (~245 Hours)", "file": "docs/assets/3d_st2.wav" },
-                        { "name": "VALL-E (~60k Hours)", "file": "docs/assets/3d_valle.wav" },
-                        { "name": "NaturalSpeech 2 (~44k Hours)", "file": "docs/assets/3d_natspeech.wav" },
-                        { "name": "StyleTTS (~245 Hours)", "file": "docs/assets/3d_st.wav" },
-                        { "name": "VITS (~245 Hours)", "file": "docs/assets/3d_vits.wav" },
-                        { "name": "YourTTS (~300 Hours)", "file": "docs/assets/3d_yourtts.wav" }
+                        { "name": "Ground Truth", "file": "docs/assests/3d_gt.wav" },
+                        { "name": "Reference", "file": "docs/assests/3d_ref.wav" },
+                        { "name": "StyleTTS 2 (~245 Hours)", "file": "docs/assests/3d_st2.wav" },
+                        { "name": "VALL-E (~60k Hours)", "file": "docs/assests/3d_valle.wav" },
+                        { "name": "NaturalSpeech 2 (~44k Hours)", "file": "docs/assests/3d_natspeech.wav" },
+                        { "name": "StyleTTS (~245 Hours)", "file": "docs/assests/3d_st.wav" },
+                        { "name": "VITS (~245 Hours)", "file": "docs/assests/3d_vits.wav" },
+                        { "name": "YourTTS (~300 Hours)", "file": "docs/assests/3d_yourtts.wav" }
                     ]
                 }
             ]
