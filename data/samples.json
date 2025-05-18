@@ -352,6 +352,52 @@
                     ]
                 }
             ]
+        },
+        {
+            "title": "8. Speech Diversity",
+            "samples": [
+                    "description": "How much variation is there?",
+
+                
+                    {
+                      
+                        "models": [
+                            
+                            { "name": "MVC", "file": "docs/assests/7a_mvc.wav" },
+                            { "name": "StyleTTS 2", "file": "docs/assests/7a_st2.wav" },
+                            { "name": "VITS", "file": "docs/assests/7a_vits.wav" }
+                        ]
+                    },
+                    
+    
+                    {
+                        
+                        "models": [
+                            
+                            { "name": "MVC", "file": "docs/assests/7b_mvc.wav" },
+                            { "name": "StyleTTS 2", "file": "docs/assests/7b_st2.wav" },
+                            { "name": "VITS", "file": "docs/assests/7b_vits.wav" }
+                        ]
+                    },
+                    {
+                        
+                        "models": [
+                           
+                            { "name": "MVC", "file": "docs/assests/7c_mvc.wav" },
+                            { "name": "StyleTTS 2", "file": "docs/assests/7c_st2.wav" },
+                            { "name": "VITS", "file": "docs/assests/7c_vits.wav" }
+                        ]
+                    },
+                    {
+                        
+                        "models": [
+                            
+                            { "name": "MVC", "file": "docs/assests/7d_mvc.wav" },
+                            { "name": "StyleTTS 2", "file": "docs/assests/7d_st2.wav" },
+                            { "name": "VITS", "file": "docs/assests/7d_vits.wav" }
+                    ]
+                }
+            ]
         }
     ]
 }
