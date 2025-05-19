@@ -43,14 +43,13 @@ header h1 {
 .model-row {
     margin-bottom: 20px;
     padding: 10px 0;
-    border-bottom: 1px solid #ccc;
+/*     border-bottom: 1px solid #ccc; */
 }
 
-/* Model Name Styles */
-.model-row h3 {
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 10px;
+/* Model Row Styles */
+.model-row {
+    margin-bottom: 30px;
+    padding: 5px 0;
 }
 
 /* Audio Container for Horizontal Layout */
@@ -60,6 +59,7 @@ header h1 {
     flex-wrap: nowrap;
     overflow-x: auto;
 }
+
 
 /* Audio File Styles */
 .audio-container audio {
