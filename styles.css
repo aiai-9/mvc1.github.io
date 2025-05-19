@@ -44,9 +44,6 @@ header h1 {
     margin-bottom: 20px;
     padding: 10px 0;
     border-bottom: 1px solid #ccc;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
 }
 
 /* Model Name Styles */
@@ -56,11 +53,21 @@ header h1 {
     margin-bottom: 10px;
 }
 
-/* Audio File Styles */
-.model-row audio {
-    margin-bottom: 10px;
-    width: 300px;
+/* Audio Container for Horizontal Layout */
+.audio-container {
+    display: flex;
+    gap: 15px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
 }
+
+/* Audio File Styles */
+.audio-container audio {
+    flex-shrink: 0;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
 
 
 
