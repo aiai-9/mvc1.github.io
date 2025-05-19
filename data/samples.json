@@ -75,7 +75,7 @@
         },
         {
             "title": "2. Single-Speaker (LJSpeech, Out-Of-Distribution Texts)",
-            "description": "This section contains OOD samples with ground truth audios taken from LibriVox. All the 40 clips used in our experiment can be downloaded here.",
+            
             "samples": [
                 {
                     "text": "Then leaving the corpse within the house they go themselves to and fro about the city and beat themselves, with their garments bound up by a girdle.",
@@ -125,7 +125,7 @@
         },
         {
             "title": "3. Zero-shot Speaker Adaptation (LibriTTS)",
-            "description": "This section contains samples from our multi-speaker LibriTTS model. For each model, the size of the training set is provided. Note that all speakers are unseen during the training process.",
+           
             "samples": [
                 {
                     "text": "Yea, his honourable worship is within, but he hath a godly minister or two with him, and likewise a leech.",
