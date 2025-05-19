@@ -53,6 +53,17 @@ header h1 {
     margin-bottom: 10px;  /* Reduced spacing between rows */
 }
 
+/* Group Container Styles */
+.group-container {
+    margin-bottom: 20px;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+}
+
 /* Model Name Styles */
 .model-row h3 {
     flex-basis: 150px;
