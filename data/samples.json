@@ -4,19 +4,19 @@
             "samples": [
                 {
                     "model": "MVC",
-                    "file": "docs/assests/00001_2.wav"
+                    "file": "docs/assests/mvc_abs.wav"
                 },
                 {
                     "model": "StyleTTS 2",
-                    "file": "docs/assests/00001_2.wav"
-                },
-                {
-                    "model": "JETS",
-                    "file": "docs/assests/00001_2.wav"
+                    "file": "docs/assests/st2_abs.wav"
                 },
                 {
                     "model": "VITS",
-                    "file": "docs/assests/00001_2.wav"
+                    "file": "docs/assests/vits_abs.wav"
+                },
+                {
+                    "model": "JETS",
+                    "file": "docs/assests/jets_abs.wav"
                 }
             ]
         }
