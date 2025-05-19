@@ -46,23 +46,22 @@ header h1 {
     border-bottom: 1px solid #ccc;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    flex-direction: column;
 }
 
 /* Model Name Styles */
 .model-row h3 {
-    flex-basis: 200px;
-    margin: 0;
     font-size: 18px;
     font-weight: bold;
-    margin-right: 20px;
+    margin-bottom: 10px;
 }
 
 /* Audio File Styles */
 .model-row audio {
-    margin: 5px 10px;
-    flex-shrink: 0;
+    margin-bottom: 10px;
+    width: 300px;
 }
+
 
 
 /* Audio Sample Styles */
