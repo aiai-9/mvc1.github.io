@@ -23,12 +23,16 @@ fetch('data/samples.json')
                 section.samples.forEach(model => {
                     const modelRow = document.createElement('div');
                     modelRow.classList.add('model-row');
-
+            
                     // Add model name
                     const modelTitle = document.createElement('h3');
                     modelTitle.textContent = model.name;
                     modelRow.appendChild(modelTitle);
-
+            
+                    // Create a horizontal container for audio files
+                    const audioContainer = document.createElement('div');
+                    audioContainer.classList.add('audio-container');
+            
                     // Add audio files
                     model.files.forEach(file => {
                         const audioElement = document.createElement('audio');
@@ -37,9 +41,10 @@ fetch('data/samples.json')
                         sourceElement.src = file;
                         sourceElement.type = "audio/wav";
                         audioElement.appendChild(sourceElement);
-                        modelRow.appendChild(audioElement);
+                        audioContainer.appendChild(audioElement);
                     });
-
+            
+                    modelRow.appendChild(audioContainer);
                     textSamplesContainer.appendChild(modelRow);
                 });
             } else {
