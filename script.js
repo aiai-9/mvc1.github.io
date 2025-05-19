@@ -3,13 +3,41 @@ fetch('data/samples.json')
     .then(data => {
         const textSamplesContainer = document.getElementById('text-samples');
 
-        // Handle "texts" sections
+        // Handle Groups (like MVC, StyleTTS 2, JETS, VITS)
+        if (data.groups) {
+            data.groups.forEach(group => {
+                const groupRow = document.createElement('div');
+                groupRow.classList.add('model-row');
+
+                group.samples.forEach(sample => {
+                    const modelElement = document.createElement('div');
+                    modelElement.classList.add('model');
+                    modelElement.innerHTML = `
+                        <h3>${sample.model}</h3>
+                        <audio controls>
+                            <source src="${sample.file}" type="audio/wav">
+                            Your browser does not support the audio element.
+                        </audio>
+                    `;
+                    groupRow.appendChild(modelElement);
+                });
+
+                textSamplesContainer.appendChild(groupRow);
+                // Add a horizontal line after each group
+                const hrElement = document.createElement('hr');
+                textSamplesContainer.appendChild(hrElement);
+            });
+        }
+
+        // Handle Texts (like Speech Diversity)
         data.texts.forEach(section => {
+            // Add section title
             const sectionTitle = document.createElement('h2');
             sectionTitle.classList.add('section-title');
             sectionTitle.textContent = section.title;
             textSamplesContainer.appendChild(sectionTitle);
 
+            // Add section description if available
             if (section.description) {
                 const sectionDesc = document.createElement('p');
                 sectionDesc.classList.add('section-description');
@@ -17,7 +45,7 @@ fetch('data/samples.json')
                 textSamplesContainer.appendChild(sectionDesc);
             }
 
-            // Handle Speech Diversity
+            // Handle Speech Diversity separately
             if (section.title === "8. Speech Diversity") {
                 section.samples.forEach(model => {
                     const modelRow = document.createElement('div');
@@ -29,9 +57,6 @@ fetch('data/samples.json')
                     modelRow.appendChild(modelTitle);
 
                     // Add audio files
-                    const audioContainer = document.createElement('div');
-                    audioContainer.classList.add('audio-container');
-                    
                     model.files.forEach(file => {
                         const audioElement = document.createElement('audio');
                         audioElement.controls = true;
@@ -39,13 +64,13 @@ fetch('data/samples.json')
                         sourceElement.src = file;
                         sourceElement.type = "audio/wav";
                         audioElement.appendChild(sourceElement);
-                        audioContainer.appendChild(audioElement);
+                        modelRow.appendChild(audioElement);
                     });
 
-                    modelRow.appendChild(audioContainer);
                     textSamplesContainer.appendChild(modelRow);
                 });
             } else {
+                // Handle normal text samples
                 section.samples.forEach(sample => {
                     const textElement = document.createElement('div');
                     textElement.classList.add('text-block');
@@ -75,27 +100,6 @@ fetch('data/samples.json')
             // Add a horizontal line after each section
             const hrElement = document.createElement('hr');
             textSamplesContainer.appendChild(hrElement);
-        });
-
-        // Handle "groups" sections
-        data.groups.forEach(group => {
-            const groupContainer = document.createElement('div');
-            groupContainer.classList.add('group-container');
-
-            group.samples.forEach(sample => {
-                const modelElement = document.createElement('div');
-                modelElement.classList.add('model');
-                modelElement.innerHTML = `
-                    <h3>${sample.model}</h3>
-                    <audio controls>
-                        <source src="${sample.file}" type="audio/wav">
-                        Your browser does not support the audio element.
-                    </audio>
-                `;
-                groupContainer.appendChild(modelElement);
-            });
-
-            textSamplesContainer.appendChild(groupContainer);
         });
     })
     .catch(error => console.error('Error loading samples:', error));
