@@ -354,36 +354,34 @@
             ]
         },
         {
-            "texts": [
+            "title": "8. Speech Diversity",
+            "description": "How much variation is there?",
+            "samples": [
                 {
-                    "title": "8. Speech Diversity",
-                    "description": "How much variation is there?",
-                    "samples": [
-                        {
-                            "name": "MVC",
-                            "files": [
-                                "docs/assests/7a_fastdiff.wav",
-                                "docs/assests/7b_fastdiff.wav",
-                                "docs/assests/7c_fastdiff.wav",
-                                "docs/assests/7d_fastdiff.wav"
-                            ]
-                        },
-                        {
-                            "name": "StyleTTS 2",
-                            "files": [
-                                "docs/assests/7a_st2.wav",
-                                "docs/assests/7b_st2.wav",
-                                "docs/assests/7c_st2.wav",
-                                "docs/assests/7d_st2.wav"
-                            ]
-                        },
-                        {
-                            "name": "VITS",
-                            "files": [
-                                "docs/assests/7a_vits.wav",
-                                "docs/assests/7b_vits.wav",
-                                "docs/assests/7c_vits.wav",
-                                "docs/assests/7d_vits.wav"
+                    "name": "MVC",
+                    "files": [
+                        "docs/assests/7a_fastdiff.wav",
+                        "docs/assests/7b_fastdiff.wav",
+                        "docs/assests/7c_fastdiff.wav",
+                        "docs/assests/7d_fastdiff.wav"
+                    ]
+                },
+                {
+                    "name": "StyleTTS 2",
+                    "files": [
+                        "docs/assests/7a_st2.wav",
+                        "docs/assests/7b_st2.wav",
+                        "docs/assests/7c_st2.wav",
+                        "docs/assests/7d_st2.wav"
+                    ]
+                },
+                {
+                    "name": "VITS",
+                    "files": [
+                        "docs/assests/7a_vits.wav",
+                        "docs/assests/7b_vits.wav",
+                        "docs/assests/7c_vits.wav",
+                        "docs/assests/7d_vits.wav"
                     ]
                 }
             ]
