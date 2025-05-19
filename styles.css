@@ -39,6 +39,32 @@ header h1 {
     margin-top: 20px;
 }
 
+/* Model Row Styles */
+.model-row {
+    margin-bottom: 20px;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/* Model Name Styles */
+.model-row h3 {
+    flex-basis: 200px;
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+/* Audio File Styles */
+.model-row audio {
+    margin: 5px 10px;
+    flex-shrink: 0;
+}
+
+
 /* Audio Sample Styles */
 .sample-group,
 .model-group {
