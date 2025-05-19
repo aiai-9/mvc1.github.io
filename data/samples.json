@@ -360,28 +360,31 @@
                 {
                     "name": "MVC",
                     "files": [
-                        "docs/assests/7a_fastdiff.wav",
-                        "docs/assests/7b_fastdiff.wav",
-                        "docs/assests/7c_fastdiff.wav",
-                        "docs/assests/7d_fastdiff.wav"
+                        "docs/assests/8a_mvc.wav",
+                        "docs/assests/8b_mvc.wav",
+                        "docs/assests/8c_mvc.wav",
+                        "docs/assests/8d_mvc.wav",
+                        "docs/assests/8e_mvc.wav"
                     ]
                 },
                 {
                     "name": "StyleTTS 2",
                     "files": [
-                        "docs/assests/7a_st2.wav",
-                        "docs/assests/7b_st2.wav",
-                        "docs/assests/7c_st2.wav",
-                        "docs/assests/7d_st2.wav"
+                        "docs/assests/8a_st2.wav",
+                        "docs/assests/8b_st2.wav",
+                        "docs/assests/8c_st2.wav",
+                        "docs/assests/8d_st2.wav",
+                        "docs/assests/8e_st2.wav"
                     ]
                 },
                 {
                     "name": "VITS",
                     "files": [
-                        "docs/assests/7a_vits.wav",
-                        "docs/assests/7b_vits.wav",
-                        "docs/assests/7c_vits.wav",
-                        "docs/assests/7d_vits.wav"
+                        "docs/assests/8a_vits.wav",
+                        "docs/assests/8b_vits.wav",
+                        "docs/assests/8c_vits.wav",
+                        "docs/assests/8d_vits.wav",
+                        "docs/assests/8e_vits.wav"
                     ]
                 }
             ]
