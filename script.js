@@ -3,14 +3,13 @@ fetch('data/samples.json')
     .then(data => {
         const textSamplesContainer = document.getElementById('text-samples');
 
+        // Handle "texts" sections
         data.texts.forEach(section => {
-            // Add section title
             const sectionTitle = document.createElement('h2');
             sectionTitle.classList.add('section-title');
             sectionTitle.textContent = section.title;
             textSamplesContainer.appendChild(sectionTitle);
 
-            // Add section description if available
             if (section.description) {
                 const sectionDesc = document.createElement('p');
                 sectionDesc.classList.add('section-description');
@@ -18,22 +17,21 @@ fetch('data/samples.json')
                 textSamplesContainer.appendChild(sectionDesc);
             }
 
-            // Handle Speech Diversity separately
+            // Handle Speech Diversity
             if (section.title === "8. Speech Diversity") {
                 section.samples.forEach(model => {
                     const modelRow = document.createElement('div');
                     modelRow.classList.add('model-row');
-            
+
                     // Add model name
                     const modelTitle = document.createElement('h3');
                     modelTitle.textContent = model.name;
                     modelRow.appendChild(modelTitle);
-            
-                    // Create a horizontal container for audio files
+
+                    // Add audio files
                     const audioContainer = document.createElement('div');
                     audioContainer.classList.add('audio-container');
-            
-                    // Add audio files
+                    
                     model.files.forEach(file => {
                         const audioElement = document.createElement('audio');
                         audioElement.controls = true;
@@ -43,12 +41,11 @@ fetch('data/samples.json')
                         audioElement.appendChild(sourceElement);
                         audioContainer.appendChild(audioElement);
                     });
-            
+
                     modelRow.appendChild(audioContainer);
                     textSamplesContainer.appendChild(modelRow);
                 });
             } else {
-                // Handle normal text samples
                 section.samples.forEach(sample => {
                     const textElement = document.createElement('div');
                     textElement.classList.add('text-block');
@@ -78,6 +75,27 @@ fetch('data/samples.json')
             // Add a horizontal line after each section
             const hrElement = document.createElement('hr');
             textSamplesContainer.appendChild(hrElement);
+        });
+
+        // Handle "groups" sections
+        data.groups.forEach(group => {
+            const groupContainer = document.createElement('div');
+            groupContainer.classList.add('group-container');
+
+            group.samples.forEach(sample => {
+                const modelElement = document.createElement('div');
+                modelElement.classList.add('model');
+                modelElement.innerHTML = `
+                    <h3>${sample.model}</h3>
+                    <audio controls>
+                        <source src="${sample.file}" type="audio/wav">
+                        Your browser does not support the audio element.
+                    </audio>
+                `;
+                groupContainer.appendChild(modelElement);
+            });
+
+            textSamplesContainer.appendChild(groupContainer);
         });
     })
     .catch(error => console.error('Error loading samples:', error));
