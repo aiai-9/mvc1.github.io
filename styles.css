@@ -41,22 +41,24 @@ header h1 {
 
 /* Model Row Styles */
 .model-row {
-    margin-bottom: 10px;
+    margin-bottom: 18px;
     padding: 10px 0;
     display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    gap: 20px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 18px;
+    width: 100%;
 }
 
 
 /* Audio Container for Horizontal Layout */
 .audio-container {
-    display: flex;
-    gap: 15px;
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    margin-bottom: 10px;  /* Reduced spacing between rows */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 14px;
+    flex: 1 1 700px;
+    min-width: 0;
+    width: 100%;
 }
 
 /* Group Container Styles */
@@ -71,12 +73,10 @@ header h1 {
 }
 
 /* Model Name Styles */
-.model-row h3 {
-    flex-basis: 150px;
-    margin: 0;
+.model-row > h3 {
+    flex: 0 0 160px;
+    margin: 12px 0 0;
     font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 5px;
 }
 
 /* Audio File Styles */
@@ -89,19 +89,21 @@ header h1 {
 
 
 /* Audio Sample Styles */
-.sample-group,
 .model-group {
-    display: flex;
-    flex-wrap: nowrap;
-    gap: 20px;
-    overflow-x: auto;
-    padding-bottom: 20px;
-    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 16px;
+    width: 100%;
+    margin: 12px 0 24px;
 }
 
-.sample, .model {
+.model {
     text-align: center;
-    flex-shrink: 0;
+    min-width: 0;
+    padding: 12px;
+    background: #fff;
+    border: 1px solid #e2e2e2;
+    border-radius: 10px;
 }
 
 .sample h3, .model h3 {
@@ -123,7 +125,16 @@ header h1 {
 
 /* Audio Styles */
 audio {
-    width: 200px;
+    display: block;
+    width: 100%;
+    max-width: 360px;
+    min-width: 0;
+    margin: 0 auto;
+}
+
+.audio-container audio {
+    width: 100%;
+    max-width: none;
 }
 
 /* Footer Styles */
@@ -137,4 +148,24 @@ footer {
 /* Remove default HR styles */
 hr {
     display: none;
+}
+
+@media (max-width: 700px) {
+    body {
+        padding: 12px;
+    }
+
+    .model-group,
+    .audio-container {
+        grid-template-columns: 1fr;
+    }
+
+    .model-row > h3 {
+        flex-basis: 100%;
+        margin-top: 0;
+    }
+
+    .text-block {
+        padding: 12px;
+    }
 }
