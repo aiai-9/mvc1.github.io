@@ -61,15 +61,26 @@ fetch('data/samples.json')
                     audioContainer.classList.add('audio-container');
 
                     // Add audio files
-                    model.files.forEach(file => {
-                        const audioElement = document.createElement('audio');
-                        audioElement.controls = true;
-                        const sourceElement = document.createElement('source');
-                        sourceElement.src = file;
-                        sourceElement.type = "audio/wav";
-                        audioElement.appendChild(sourceElement);
-                        audioContainer.appendChild(audioElement);
-                    });
+                    model.files.forEach((file, fileIndex) => {
+                    const wrapper = document.createElement('div');
+                    wrapper.classList.add('model');
+                
+                    const label = document.createElement('h3');
+                    label.textContent = `Sample ${fileIndex + 1}`;
+                    wrapper.appendChild(label);
+                
+                    const audioElement = document.createElement('audio');
+                    audioElement.controls = true;
+                    audioElement.preload = 'metadata';
+                
+                    const sourceElement = document.createElement('source');
+                    sourceElement.src = file;
+                    sourceElement.type = 'audio/wav';
+                
+                    audioElement.appendChild(sourceElement);
+                    wrapper.appendChild(audioElement);
+                    audioContainer.appendChild(wrapper);
+                });
 
                     modelRow.appendChild(audioContainer);
                     textSamplesContainer.appendChild(modelRow);
